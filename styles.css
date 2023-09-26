@@ -1,0 +1,369 @@
+.wrapper{
+    display: block;
+    width: 1140px;
+    margin: auto;
+}
+.head{
+    display: flex;
+    justify-content: end;
+    width: 1140px;
+    height: 150px;
+    left: 0px;
+    border-radius: 12px 12px;
+    background: #82FAAB;
+    border-bottom: 3px solid #FFFFFF; 
+}
+.head-contacts{
+    display: flex;
+    flex-direction: column;
+    
+}
+
+.head-contacts-item{
+    /* WEBStorm@gmail.com */
+    float: right;
+    width: 152px;
+    height: 18px;
+    font-family: 'JetBrains Mono';
+    font-style: normal;
+    font-weight: 300;
+    margin: 0;
+    margin-right: 10px;
+    font-size: 14px;
+    line-height: 18px;
+    text-decoration-line: underline;
+    color: #FFFFFF;
+}
+
+.head-img{
+
+    position: absolute;
+    width: 102px;
+    height: 88px;
+    left: calc(50% - 102px/2 - 509px);
+    margin-right: 3px;
+    margin-top: 42px;
+    background: url(WebStorm_Icon.png);
+}
+.head-info{
+    /* Form */
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    box-sizing: border-box;
+    position: absolute;
+    width: 1016px;
+    height: 97px;
+    margin-right: 10px;
+    margin-top: 36px;
+    background: #FFFFFF;
+    border: 2px solid #82C8FA;
+    border-radius: 20px;
+
+}
+.head-info-list{
+    display: flex;
+    flex-direction: row;
+    justify-content: end;
+    align-items: center;
+    margin-right: 0px;
+}
+.head-list{
+    margin-left: 35px;
+    margin-right: 15px;
+    font-family: 'JetBrains Mono';
+    font-style: normal;
+    font-weight: 800;
+    font-size: 22px;
+    line-height: 29px;
+    color: #000000;
+}
+.head-main-title{
+    /* Студия WEBStorm */
+
+    width: 456px;
+    height: 53px;
+    font-family: 'JetBrains Mono';
+    font-style: normal;
+    font-weight: 800;
+    font-size: 40px;
+    line-height: 53px;
+    /* identical to box height */
+
+    color: rgba(1, 0, 0, 0.79);
+
+
+}
+.content1{
+    /* bg */
+    box-sizing: border-box;
+    position: absolute;
+    width: 1140px;
+    height: 670px;
+    background: #82C8FA;
+}
+
+.content1-blocks{
+    display: flex;
+    justify-content: center;
+}
+.content1-upper-block1{
+    /* Rectangle 1 */
+    width: 550.04px;
+    height: 267.1px;
+    background: #E3E4FB;
+    border-radius: 20px;
+    margin-top: 28px;
+    margin-left: 10px;
+    margin-right: 10px;
+}
+
+.content1-upper-block2{
+    /* Rectangle 1 */
+    width: 550.04px;
+    height: 267.1px;
+    background: #E3E4FB;
+    border-radius: 20px;
+    margin-top: 28px;
+    margin-right: 10px;
+    margin-left: 10px;
+}
+
+.content1-list-item{
+    /* Веб-разработка Дизайн и верстка Интернет-магазины Веб-приложения Мобильная разработка Оптимизация и поддержка */
+    font-family: 'JetBrains Mono';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 24px;
+    line-height: 32px;
+    color: #000000;
+    align-items: center;
+    margin-left: 20px;
+}
+
+.right-block-list{
+    margin-top: 26px;
+}
+
+.con1-low-img{
+    /* 10-good-flat-website-design-joyintermedia 1 */
+    position: absolute;
+    width: 365.64px;
+    height: 230.15px;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+    border-radius: 20px;
+}
+
+.content1-lower-block{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    margin-top: 35px;
+}
+
+.subtitle{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    margin-top: 32px;
+}
+
+.content1-low-text{
+    /* Веб-разработка Дизайн и верстка Интернет-магазины Веб-приложения Мобильная разработка */
+    font-family: 'JetBrains Mono';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 26px;
+    color: #FFFFFF;
+}
+
+.div-img{
+    width: 365.64px;
+    height: 230.15px;
+}
+
+.content1-text{
+    /* Мы специализируемся на разработке пользовательских веб-сайтов, эффективных интернет-магазинов и интерактивных веб-приложений. */
+    position: absolute;
+    width: 456.01px;
+    height: 225.9px;
+    font-family: 'JetBrains Mono';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 24px;
+    line-height: 32px;
+    margin-left: 20px;
+    display: flex;
+    align-items: center;
+    color: #000000;
+}
+
+.content2{
+    /* bg */
+    display: flex;
+    flex-direction: row;
+    box-sizing: border-box;
+    position: absolute;
+    width: 1140px;
+    height: 670px;
+    top: 824px;
+    background: #82FAAB;
+    border: 3px solid #FFFFFF;
+}
+
+.left-part{
+    margin-left: 39px;
+}
+.content2-image{
+    /* lending 1 */
+    width: 214.37px;
+    height: 210.06px;
+    left: 39.44px;
+    top: 931px;
+    filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.25));
+    border-radius: 7px;
+}
+
+.content2-images{
+    display: grid;
+    grid-template-columns: 214.37px 214.37px;
+    column-gap: 34px;
+    row-gap: 16px;
+}
+
+.content2-title{
+    /* Создаем веб-пространство, которое выделяет вас */
+    font-family: 'JetBrains Mono';
+    font-style: normal;
+    font-weight: 800;
+    font-size: 26px;
+    line-height: 22px;
+    display: flex;
+    align-items: flex-end;
+    color: #FFFFFF;
+}
+
+.content2-image-text{
+    /* Эффективные веб-сайты, специально разработанные для успеха вашего бизнеса */
+    font-family: 'JetBrains Mono';
+    font-style: normal;
+    font-weight: 800;
+    font-size: 20px;
+    line-height: 22px;
+    leading-trim: both;
+    text-edge: cap;
+    display: flex;
+    align-items: center;
+    font-variant: all-small-caps;
+    color: #000000;
+}
+
+.div-img2{
+    width: 214.37px;
+    height: 210.06px;
+}
+
+.div-img2-od{
+    /* Rectangle 4 */
+    width: 214.37px;
+    height: 211px;
+    background: #FFFFFF;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+    border-radius: 7px;
+}
+
+.form{
+    display: flex;
+    flex-direction: column;
+    justify-content: start;
+    margin-top: 20px;
+    margin-left: 124px;
+}
+
+.form-input{
+    /* Input / Basic */
+    width: 361.38;
+    height: 45.85;
+    margin-top: 35px; 
+}
+
+.form-title{
+    margin-left: auto;
+    margin-right: auto;
+    /* Остались вопросы? - Напишите нам! */
+    font-family: 'JetBrains Mono';
+    font-style: normal;
+    font-weight: 800;
+    font-size: 26px;
+    line-height: 34px;
+    color: #FFFFFF;
+}
+
+.form-textarea{
+    margin-top: 5px;
+}
+.send-button{
+    width: 260.65;
+    height: 40.22;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 10px;
+}
+
+.footer{
+    /* Rectangle 7 */
+    display: flex;
+    flex-direction: row;
+    justify-content: start;
+    position: absolute;
+    width: 1140px;
+    height: 208px;
+    top: 1492px;
+    background: rgba(201, 255, 114, 0.62);
+}
+
+.footer-title{
+    /* Адрес: Россия, г. Нижний Новгород, ул. Большая Покровская, 29 */
+    font-family: 'JetBrains Mono';
+    font-style: normal;
+    font-weight: 800;
+    font-size: 14px;
+    line-height: 18px;
+    display: flex;
+    align-items: flex-end;
+    color: #000000;
+    margin-top: 1px;
+    margin: 0;
+}
+
+.footer-title1{
+    /* Адрес: Россия, г. Нижний Новгород, ул. Большая Покровская, 29 */
+    font-family: 'JetBrains Mono';
+    color: #000000;
+    margin: 0;
+}
+
+.footer-ul-item{
+    /* Услуги Веб-разработка Дизайн и верстка Интернет-магазины Веб-приложения Мобильная разработка Оптимизация и поддержка */
+    font-family: 'JetBrains Mono';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 18px;
+    display: flex;
+    align-items: flex-end;
+    color: #000000;
+}
+
+
+.address{
+    display: flex;
+    flex-direction: column;
+    justify-content: start;
+    margin-left: 10px;
+}
+
+/* Head */
+
+
